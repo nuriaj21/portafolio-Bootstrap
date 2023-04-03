@@ -1,4 +1,4 @@
 # portafolio-Bootstrap
 Intentando crear mi primer portafolio
-intentaré creaar un portafolio sin plantilla
+intentaré crear un portafolio sin plantilla
 utilizando bootstrap y flex, evidentemente Html, css, js. 
