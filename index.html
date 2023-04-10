@@ -19,21 +19,20 @@
     <!--Google fuentes-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
   </head>
   <body>
     <!--barra de navegacion-->
-    <nav class="navbar navbar-expand-md bg-light navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light">
        <div class="container-fluid">
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbar-toggler" aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbar-togglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-toggler">
-          <a class="navbar-brand" href="#" >
+          <a class="navbar-brand" href="#">
             <img src="imagenes/icons8-32.png" width="50" alt="Logo de la web">
           </a>
-          <ul class="navbar-nav d-flex justify-content-center align-content-center">
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Sobre mí</a>
             </li>
@@ -51,15 +50,24 @@
       </div>
     </nav>
     <!--Section Hero-->
-    <section class="hero aling-item-stretch">
-        <div class= "hero-principal justify-content-center  align-item-center">
-           <img class= "hero-im-des" src="imagenes/NuriaMin.svg" alt="foto de Nuria Justo">
+    <section class="hero align-items-stretch">
+        <div class= "hero-principal d-flex flex-column justify-content-center  align-items-center">
+           <img class= "hero-im-des rounded-circle" src="imagenes/NuriaMin.svg" alt="foto de Nuria Justo">
            <h1>Bienvenido,mi nombre Nuria Justo</h1>
-           <h3>Estudiando Programación</h3>
+           <h2>Estudiando Programación</h2>
         </div>
         <div class="hero-inferior">
-          <img class="hero inferior" src="imagenes/hero-inferior.svg" alt="foto de habilidades">
+          <img class="hero-inferior-imagen img-fluid"
+           src="imagenes/hero-inferior.svg" alt="foto de habilidades, monitor, js,Html,CSS";>
         </div>
+    </section>
+ <!--sobre mi-->
+    <section class="sobre-mi  seccion-oscura">
+    <div class="contenedor">
+
+      <h2 class="seccion-titulo">Conoce a Nuria Justo</h2>
+      <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id metus vitae arcu eleifend porta. Vestibulum laoreet aliquet diam vitae auctor. Sed lobortis ultricies tincidunt. Proin vitae blandit ligula. In sit amet imperdiet quam, non cursus massa. Duis placerat finibus faucibus. Aenean sed nisi quis justo tempor dapibus interdum a libero. Integer semper ante in molestie ornare.</p>
+    </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
