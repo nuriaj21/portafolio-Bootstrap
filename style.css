@@ -1,13 +1,54 @@
 /*Barra de navegación*/
 .navbar {
     padding: 2rem;
-    background-color: #f5f6f7;
+    background-color: #dde1ec;
 }
 
-.navar-collapse {
+.navbar-collapse {
     align-items: center ;
     justify-content: space-between;
 }
+
+/*Estilos generales*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1  {
+    font-size: 2.5rem;
+
+    font-family: 'Rubik Moonrocks', cursive;;
+}
+h3   {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+/*Sección Hero*/
+
+.hero   {
+    background-color:  #315579;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal  {
+    padding :3rem ;
+
+}
+.hero-im-des {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+.hero-inferior-imagen
+
 /*Adaptable responsivo*/
 @media screen and (max-width: 767px) {
     .navbar-brand  { display: none }
