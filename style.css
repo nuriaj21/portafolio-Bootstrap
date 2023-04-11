@@ -1,8 +1,9 @@
+
 /*Barra de navegación*/
 
 .navbar {
     padding: 2rem;
-    background-color: #f5f6f7;
+    background-color: rgb(150, 138, 138);
 }
 
 .navbar-collapse {
@@ -28,7 +29,7 @@ h1  {
 }
 .seccion-clara {
     color: black;
-    background-color:white ;
+    background-color:rgb(150, 138, 138) ;
 }
 
 .seccion-titulo {
@@ -39,7 +40,7 @@ h1  {
 
 .seccion-descripcion {
     font-size: 1.2rem;
-    color: #584e4e;
+    color: #444242;
   }
 
 .seccion-texto  {
@@ -58,7 +59,6 @@ h1  {
 .texto-blanco {
     color: white;
 }
-  
  
 /*Sección Hero*/
 
@@ -72,7 +72,7 @@ h1  {
     padding :3rem ;
 }
 
-.hero-im-des {
+.hero-imagen-desarrollador {
     width: 200px;
     height: 200px;
     margin: 20px;
@@ -107,7 +107,7 @@ h1  {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    transition: all 0.2s ease-in;
+    transition: all 0.2s  ease-in;
 }
 
 .experiencia .columna:hover {
@@ -278,7 +278,7 @@ h1  {
   
 .contacto .rectangulo {
     margin-top: -5rem;
-    background-color: rgb(13, 110, 253);
+    background-color: rgb(66, 128, 222);
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white;
 }
@@ -379,7 +379,6 @@ h1  {
     .overlay p {
       font-size: 18px;
     }
-  
     .overlay i {
       font-size: 40px;
     }
@@ -399,6 +398,10 @@ h1  {
     .testimonio-texto {
       font-size: 18px;
     }
+}
+@media (min-width: 768px) .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
 }
 
 
